@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px !important;
+}
+body{
+    font-family: 'Lobster', cursive;
+}    
+.btn-success:hover{
+    background: red;
+}
+@keyframes changecolor{
+    from{
+        box-shadow: 8px 8px 42px black;
+    }
+    to{
+        box-shadow: 8px 8px 42px turquoise;
+    }
+}
+canvas{
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
